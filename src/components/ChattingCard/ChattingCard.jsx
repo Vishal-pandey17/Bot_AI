@@ -59,7 +59,7 @@ export default function ChattingCard({ details, showFeedbackModal, updateChat, s
               fontWeight={700}
               fontSize={{xs: 14, md: 16}}
             >
-              {details.type == 'AI' ? 'BotAI' : 'you'}
+              {details.type == 'AI' ? 'Soul AI' : 'you'}
             </Typography>
             <Typography
                fontSize={{ xs: 12, md: 16 }}
